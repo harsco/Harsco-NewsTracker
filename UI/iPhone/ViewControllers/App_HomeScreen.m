@@ -78,10 +78,7 @@
    
     //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeRSS) name:@"RSSCHNGE" object:nil];
     
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Test" message:@"Test Alert" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
-    
-    [alert show];
-    [alert release];
+   //Removed Test Alert
     
     isShowingLandscapeView = NO;
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
